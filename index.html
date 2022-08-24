@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav>
+  <div id="app">Loading ...
+    <!-- Hide in docsify, show elsewhere (e.g. GitHub) -->
+    <!-- <p v-if="false">Text for GitHub</p>
+
+    Sequenced content (i.e. loop)
+    <ul>
+      <li v-for="i in 3">Item {{ i }}</li>
+    </ul> -->
+
+    <!-- JavaScript expressions -->
+    <!-- <p>2 + 2 = {{ 2 + 2 }}</p> -->
+  </div>
+  <script>
+    window.$docsify = {
+      // el: '#main',
+      name:"Sunnie's Blog",
+      repo: 'https://github.com/Red-Spid/blog.git',
+      coverpage: true,
+      loadNavbar: true,
+      loadNavbar: '_navbar.md',
+      coverpage: ['/', '/zh-cn/'],
+      auto2top: true,
+      coverpage: true,
+      executeScript: true,
+      loadSidebar: true,
+      mergeNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Production -->
+  <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+
+  <!-- Development -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script> -->
+</body>
+</html>
