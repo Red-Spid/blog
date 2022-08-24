@@ -1,9 +1,8 @@
-# 重要模块
+# **css3的新属性选择器**
 
+## **选择器**
 
-# **选择器**
-
-## **~**
+### **~**
 
 > 设置同一父元素下的 div 元素之后的每一个 p 元素的字体大小
 
@@ -13,7 +12,7 @@ div~p{
 }
 ~~~
 
-## **[class^="test"]**
+### **[class^="test"]**
 
 > 设置class属性值以"test"开头的所有div字体大小
 
@@ -23,7 +22,7 @@ div[class^="test"]{
 }
 ~~~
 
-## [class$="test"]
+### [class$="test"]
 
 > 设置class属性值以"test"结尾的所有div字体大小
 
@@ -33,7 +32,7 @@ div[class$="test"]{
 }
 ~~~
 
-## [class*="test"]
+### [class*="test"]
 
 > 设置class属性值以"test"所有div字体大小
 
@@ -43,7 +42,7 @@ div[class*="test"]{
 }
 ~~~
 
-## div:first-of-type
+### :first-of-type
 
 > 选择的 div 元素是其父元素的第一个 div 元素
 
@@ -53,7 +52,7 @@ div:first-of-type{
 }
 ~~~
 
-## div:last-of-type
+### :last-of-type
 
 > 选择的 div 元素是其父元素的最后一个 div 元素
 
@@ -63,7 +62,7 @@ div:last-of-type{
 }
 ~~~
 
-## div:only-of-type
+### :only-of-type
 
 > 指定属于父元素的特定类型的唯一子元素的div 元素
 
@@ -73,7 +72,7 @@ div:only-of-type{
 }
 ~~~
 
-## div:only-child
+### :only-child
 
 > 指定属于父元素的特定类型的唯一子元素的div 元素
 
@@ -83,7 +82,7 @@ div:only-child{
 }
 ~~~
 
-## div:nth-child(n)
+### :nth-child(n)
 
 > 选择每个div元素是其父级的第n个子元素
 
@@ -93,7 +92,7 @@ div:nth-child(n){
 }
 ~~~
 
-## div:nth-last-child(n)
+### :nth-last-child(n)
 
 > 选择每个div元素的是其父级的第n个子元素，从最后一个子项计数
 
@@ -103,7 +102,7 @@ div:nth-last-child(n){
 }
 ~~~
 
-## div:nth-of-type(n)
+### :nth-of-type(n)
 
 > 选择每个div元素是其父级的第n个div元素
 
@@ -113,7 +112,7 @@ div:nth-of-type{
 }
 ~~~
 
-## div:nth-last-of-type(n)
+### :nth-last-of-type(n)
 
 > 选择每个div元素的是其父级的第n个div元素，从最后一个子项计数
 
@@ -123,7 +122,7 @@ div:nth-last-of-type{
 }
 ~~~
 
-## div:last-child
+### :last-child
 
 > 选择每个div元素是其父级的最后一个子级。
 
@@ -133,7 +132,7 @@ div:last-child{
 }
 ~~~
 
-## div:root
+### :root
 
 > 选择文档的根元素
 
@@ -143,7 +142,7 @@ div:last-child{
 }
 ~~~
 
-## div:empty
+### :empty
 
 > 选择每个没有任何子级的n元素（包括文本节点）
 
@@ -153,7 +152,7 @@ n:empty{
 }
 ~~~
 
-## div:target
+### :target
 
 > 选择当前活动的n元素（包含该锚名称的点击的URL）
 
@@ -163,7 +162,7 @@ n:target{
 }
 ~~~
 
-## div:enabled
+### :enabled
 
 > 选择每一个已启用的输入元素）
 
@@ -173,7 +172,7 @@ n:enabled{
 }
 ~~~
 
-## div:disabled
+### :disabled
 
 > 选择每一个禁用的输入元素
 
@@ -183,7 +182,7 @@ n:disabled{
 }
 ~~~
 
-## div:checked
+### :checked
 
 > 选择每个选中的输入元素
 
@@ -193,7 +192,7 @@ n:checked{
 }
 ~~~
 
-## div:not(n)
+### :not(n)
 
 >  选择每个并非n元素的元素
 
@@ -203,7 +202,7 @@ n:checked{
 }
 ~~~
 
-## div::selection
+### ::selection
 
 > 匹配元素中被用户选中或处于高亮状态的部分
 
@@ -213,7 +212,7 @@ n:checked{
 }
 ~~~
 
-## div:out-of-range
+### :out-of-range
 
 > 匹配值在指定区间之外的input元素
 
@@ -223,7 +222,7 @@ input:out-of-range{
 }
 ~~~
 
-## div:in-range
+### :in-range
 
 > 匹配值在指定区间之内的input元素
 
@@ -233,7 +232,7 @@ input:in-range{
 }
 ~~~
 
-## div:read-only
+### :read-only
 
 > 用于匹配设置 "readonly"（只读） 属性的元素
 
@@ -243,7 +242,7 @@ input:read-only{
 }
 ~~~
 
-## div:read-write
+### :read-write
 
 > 用于匹配可读及可写的元素
 
@@ -253,7 +252,7 @@ input:read-write{
 }
 ~~~
 
-## div:optional
+### :optional
 
 >  用于匹配可选的输入元素
 
@@ -263,7 +262,7 @@ input:optional{
 }
 ~~~
 
-## div:vaild
+### :vaild
 
 >  用于匹配输入值为合法的元素
 
@@ -273,7 +272,7 @@ input:vaild{
 }
 ~~~
 
-## div:invaild
+### :invaild
 
 > 用于匹配输入值为非法的元素
 

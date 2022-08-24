@@ -15,7 +15,7 @@
 
 ## 运行项目
 
-> docsify serve docs
+> docsify serve docs | docsify serve bolg
 
 <!-- _navbar.md -->
 
