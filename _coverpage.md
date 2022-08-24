@@ -1,14 +1,12 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
 
-# docsify <small>3.5</small>
+# Sunnie’s Blog
+## 技术改变世界
+前端笔记 | 运动生活 | 技术博客
 
-> A magical documentation site generator.
+[<i class="iconfont icon-github"></i> GitHub](https://github.com/docsifyjs/docsify/)
+[马上开始 <i class="iconfont icon-down"></i>](#main)
+<!-- [马上开始 <i class="iconfont icon-down"></i>](/summary/.md) -->
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](README)
+![](https://www.sunniejs.cn/static/wx/bg.jpg)

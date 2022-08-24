@@ -7,40 +7,27 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="./_media/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster"rel="stylesheet">
+
 </head>
 <body>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
-  <div id="app">Loading ...
-    <!-- Hide in docsify, show elsewhere (e.g. GitHub) -->
-    <!-- <p v-if="false">Text for GitHub</p>
-
-    Sequenced content (i.e. loop)
-    <ul>
-      <li v-for="i in 3">Item {{ i }}</li>
-    </ul> -->
-
-    <!-- JavaScript expressions -->
-    <!-- <p>2 + 2 = {{ 2 + 2 }}</p> -->
-  </div>
+  <div id="app">Loading ...</div>
   <script>
     window.$docsify = {
-      // el: '#main',
-      name:"Sunnie's Blog",
+      name: 'Sunnie’s Blog',
       repo: 'https://github.com/Red-Spid/blog.git',
-      coverpage: true,
-      loadNavbar: true,
-      loadNavbar: '_navbar.md',
-      coverpage: ['/', '/zh-cn/'],
-      auto2top: true,
-      coverpage: true,
-      executeScript: true,
+      coverpage:true,
+      themeColor: '#25798A',
       loadSidebar: true,
-      mergeNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
+      // el: '#main',
+      // loadNavbar: true,
+      // loadNavbar: '_navbar.md',
+      // auto2top: true,
+      // executeScript: true,
+      // mergeNavbar: true,
+      // maxLevel: 4,
+      // subMaxLevel: 2,
     }
   </script>
   <!-- Docsify v4 -->
